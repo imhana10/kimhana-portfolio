@@ -196,6 +196,10 @@ a {
   max-width: 520px;
 }
 
+.break-mobile {
+  display: none;
+}
+
 .section--stats {
   padding-top: 64px;
   padding-bottom: 120px;
@@ -751,6 +755,10 @@ a {
 
   .hero.section {
     background-attachment: scroll;
+  }
+
+  .break-mobile {
+    display: block;
   }
 
   .section {
